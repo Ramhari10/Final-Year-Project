@@ -1,0 +1,80 @@
+/* Apply styles only when inside .register-page */
+.register-page .login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Logo Styling */
+.register-page .login-logo {
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+/* Glassmorphic Login Card */
+.register-page .login-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Form Fields */
+.register-page .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.register-page .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.register-page .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+/* Buttons */
+.register-page .login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: rgb(79, 172, 254);
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-page .login-button:hover {
+  background: rgba(0, 198, 255, 0.8);
+}
+
+/* Google Sign-in */
+.register-page .google-signin {
+  width: 80px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.register-page .google-signin-text {
+  font-size: 15px;
+  color: white;
+}
